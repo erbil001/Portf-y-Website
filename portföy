@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erbil Bayçoral - Portföy</title>
+  <style>
+    .icon-social {
+      width: 28px;
+      height: 28px;
+      vertical-align: middle;
+      margin-right: 6px;
+      margin-left: 2px;
+      transition: transform 0.2s;
+    }
+    .icon-social:hover {
+      transform: scale(1.15);
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at center, #300000 0%, #0a0000 100%);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 50px;
+      border-radius: 20px;
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 0 40px rgba(255, 0, 0, 0.25);
+      backdrop-filter: blur(10px);
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #ff4d4d;
+      object-fit: cover;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ff9999;
+      margin: 10px 0 5px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #f8dada;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #e0e0e0;
+      margin-bottom: 30px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+
+    .skills span {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff4d4d, #ff1a1a);
+      padding: 14px 28px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: linear-gradient(45deg, #ff6666, #ff4d4d);
+    }
+
+    .socials {
+      margin-top: 20px;
+      font-size: 1.3rem;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      color: #ffcccc;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="avatar" src="profil.jpg" alt="Erbil Bayçoral Fotoğrafı" onerror="this.onerror=null;this.src='https://via.placeholder.com/150x150?text=Profil';">
+    <h1>Erbil Bayçoral</h1>
+    <h2>Yazılım Geliştirici</h2>
+    <p>Merhaba,ben Erbil BAYÇORAL .Cumhuriyet üniversitesi Bilişim sistemleri ve teknolojileri bölümü 2'nci sınıf öğrencisiyim.Yazılım hakkında kendimi geliştirmeye ve tecrübe edinmeye çalışıyorum.</p>
+
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>PHP</span>
+      <span>Python</span>
+      <span>WordPress</span>
+      <span>SEO</span>
+    </div>
+
+  <a href="https://www.instagram.com/erblbyc/" class="btn" target="_blank" rel="noopener">İletişime Geç</a>
+
+    <div class="socials">
+      <a href="https://github.com/erbil001" target="_blank" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="icon-social"> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/erbil-bay%C3%A7oral-8b2318344/" target="_blank" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="icon-social"> LinkedIn
+      </a>
+    </div>
+  </div>
+</body>
+</html>
